@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf .repo/local_manifests .repo/local_manifest
 rm -rf prebuilts/clang/host/linux-x86
 rm -rf device/xiaomi/sky device/xiaomi/sky-kernel vendor/xiaomi/sky
 rm -rf hardware/xiaomi hardware/xiaomi
