@@ -11,6 +11,8 @@ git clone https://github.com/xiaomi-sm4450-sky/android_device_xiaomi_sky.git -b 
 git clone https://github.com/xiaomi-sm4450-sky/android_vendor_xiaomi_sky.git -b 16.2 vendor/xiaomi/sky
 git clone https://github.com/xiaomi-sm4450-sky/android_xiaomi_sky-kernel.git -b 16.2 device/xiaomi/sky-kernel
 
+sed -i 's/"libprotobuf-cpp-full-21.7"/"libprotobuf-cpp-full-v29"/g' vendor/xiaomi/sky/Android.bp
+
 export BUILD_USERNAME=XETRA
 export BUILD_HOSTNAME=darthvader
 export TARGET_DISABLE_MATLOG=true
