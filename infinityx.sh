@@ -8,7 +8,7 @@ repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfi
 /opt/crave/resync.sh || repo sync
 
 git clone https://github.com/anonytry/dt_sky -b 16.2 device/xiaomi/sky
-git clone https://github.com/anonytry/vt.git -b 16.2 vendor/xiaomi/sky
+git clone https://github.com/anonytry/vt.git -b 16.0 vendor/xiaomi/sky
 git clone https://github.com/anonytry/kt_sky.git -b 16.2 device/xiaomi/sky-kernel
 git clone https://github.com/anonytry/android_hardware_xiaomi.git hardware/xiaomi
 
